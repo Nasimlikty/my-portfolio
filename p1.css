@@ -1,0 +1,104 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orangered;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+a:hover {
+    background-color: rgb(93, 93, 134);
+    color: rgb(255, 186, 58);
+}
+
+.button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+
+.banner {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.button2:hover {
+    background-color: blanchedalmond;
+    color: red;
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+
+.dream-big {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width2 {
+    width: 26%;
+    padding-left: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.experience-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border2 {
+    border-left: 5px solid;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+    border-image-slice: 1;
+}
+
+#border3 {
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+
+#border4 {
+    border-left: 5px solid;
+    border-image: linear-gradient(#79a540, #45aca3) 30;
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
